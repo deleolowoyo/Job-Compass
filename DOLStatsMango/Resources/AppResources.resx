@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_CDCInfo" xml:space="preserve">
+    <value>This application uses several data sources from the CDC.  They include:
+
+Top Stories: http://t.cdc.gov/feed.aspx?tpc=26816&amp;fromdate=1/1/2011
+Podcasts: http://www2c.cdc.gov/podcasts/searchandcreaterss.asp?topic=flu
+Weekly Flu Activity: http://www.cdc.gov/flu/weekly/flureport.xml
+Flu Hospitalizations &amp; Deaths: http://www.cdc.gov/flu/weekly/weeklyarchives2010-2011/data/AHDRA19.htm</value>
+  </data>
+  <data name="About_FluFactsInfo" xml:space="preserve">
+    <value>The Symptom Checker tool as well as flu facts provided in this app are adapted from http://www.flufacts.com.
+© Copyright 2011 Genentech USA, Inc. All rights reserved.</value>
+  </data>
+  <data name="About_HammockInfo" xml:space="preserve">
+    <value>Copyright (c) 2011 Daniel Crenna and Jason Diller
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</value>
+  </data>
+  <data name="About_SilverlightToolkit" xml:space="preserve">
+    <value>http://silverlight.codeplex.com
+Microsoft Public License (Ms-PL)
+© Copyright 2011 Microsoft Corporation</value>
+  </data>
+  <data name="About_YahooSearchInfo" xml:space="preserve">
+    <value>Vaccine Shot Locations are provided by Yahoo Local Search.</value>
+  </data>
+  <data name="BingMapAppKey" xml:space="preserve">
+    <value>AsOBbQg-P-MAj7gbI0w6bJVQqt5ZAExMiE_devK7JUdTf7cnegUh5OUB8_KoWnVF</value>
+  </data>
+  <data name="CityGridApiBaseUrl" xml:space="preserve">
+    <value>http://api.citygridmedia.com/content/places/v2/</value>
+  </data>
+  <data name="CityGridApiKey" xml:space="preserve">
+    <value>y4ydunpcambc5xtzmg9my2xy</value>
+  </data>
+  <data name="FluFacts_FluImpact_AdultSigns" xml:space="preserve">
+    <value>•Difficulty breathing or shortness of breath.
+•Pain or pressure in the chest or abdomen.
+•Sudden dizziness.
+•Confusion.
+•Severe or persistent vomiting.</value>
+  </data>
+  <data name="FluFacts_FluImpact_AdultSignsHeader" xml:space="preserve">
+    <value>Emergency Warning Signs in Adults</value>
+  </data>
+  <data name="FluFacts_FluImpact_ChildrenSigns" xml:space="preserve">
+    <value>•Fast breathing or trouble breathing.
+•Bluish skin color.
+•Not drinking enough fluids.
+•Not waking up or not interacting.
+•Being so irritable that the child does not want to be held.
+•Flu-like symptoms improve but then return with a fever and a worse cough.
+•Fever with a rash.</value>
+  </data>
+  <data name="FluFacts_FluImpact_ChildrenSignsHeader" xml:space="preserve">
+    <value>Emergency Warning Signs in Children</value>
+  </data>
+  <data name="FluFacts_FluImpact_MainParagraph" xml:space="preserve">
+    <value>Each flu season, different flu viruses spread and affect people differently based on their body's ability to fight infection.</value>
+  </data>
+  <data name="FluFacts_ForMoreInfo" xml:space="preserve">
+    <value>FOR MORE INFO VISIT WWW.FLUFACTS.COM</value>
+  </data>
+  <data name="FluFacts_InfoCredit" xml:space="preserve">
+    <value>© Copyright 2011 Genentech USA, Inc. </value>
+  </data>
+  <data name="FluFacts_InfoCredit1" xml:space="preserve">
+    <value>All rights reserved.</value>
+  </data>
+  <data name="FluFacts_InfoCredit2" xml:space="preserve">
+    <value>FOR MORE INFO VISIT WWW.FLUFACTS.COM</value>
+  </data>
+  <data name="FluFacts_KnowTheFlu_Heading1" xml:space="preserve">
+    <value>What is the flu?</value>
+  </data>
+  <data name="FluFacts_KnowTheFlu_Heading2" xml:space="preserve">
+    <value>Types of flu</value>
+  </data>
+  <data name="FluFacts_KnowTheFlu_Paragraph1" xml:space="preserve">
+    <value>The flu, more scientifically known as influenza, is a highly contagious respiratory infection caused by influenza viruses. The influenza virus usually enters the body through mucus membranes in the mouth, nose or eyes.</value>
+  </data>
+  <data name="FluFacts_KnowTheFlu_Paragraph2" xml:space="preserve">
+    <value>There are three types of flu viruses. Type A viruses are found in many kinds of animals, including ducks, chickens, pigs and also humans. The type B virus widely circulates in humans. Type C has been found in humans, pigs, and dogs and causes mild respiratory infections, but does not spark epidemics.</value>
+  </data>
+  <data name="FluFacts_PreventTheFlu_MainParagraph" xml:space="preserve">
+    <value>Don't have the flu and don't want to get it? There are some simple health habits you can work into your life to minimize the chances of getting the flu.</value>
+  </data>
+  <data name="FluFacts_PreventTheFlu_PreventList" xml:space="preserve">
+    <value>•Wash your hands regularly
+•Cover your mouth when coughing and sneezing
+•Take the yearly flu vaccine
+•Ask your doctor about antivirals</value>
+  </data>
+  <data name="FluFacts_TreatTheFlu_MainParagraph1" xml:space="preserve">
+    <value>There are four main options that might be used as flu treatments — vaccines (the flu shot), good hygiene, antibiotics, and over-the-counter medicines. However, only one option – prescription antivirals – can make your illness milder or make you feel better faster.</value>
+  </data>
+  <data name="FluFacts_TreatTheFlu_MainParagraph2" xml:space="preserve">
+    <value>The chart below gives you an at-a-glance comparison of each option.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_Aches" xml:space="preserve">
+    <value>While it is normal to feel body aches from physical overexertion, body aches that are sudden and unexplained can be a sign of the flu.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_Chills" xml:space="preserve">
+    <value>Chills and shivering are normal as your body reacts to a cold environment. Luckily, you have those warm bunny slippers for cold winter mornings. Chills unrelated to environment can be a sign of the flu.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_Coughing" xml:space="preserve">
+    <value>Know your cough. A productive cough (coughing up mucus) is common with a cold, while a non-productive or dry cough (with no mucus) is associated with the flu.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_Fever" xml:space="preserve">
+    <value>A fever occurs when your body temperature increases in response to illness or injury. Your temperature is considered elevated when it is higher than 100°F.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_Sneezing" xml:space="preserve">
+    <value>A symptom of a cold and the flu, sneezing spreads viruses through droplets in the air. Try to sneeze into a tissue and then wash your hands to reduce the spread of cold and flu.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_SoreThroat" xml:space="preserve">
+    <value>Swelling in the throat, sometimes caused by a cold, can lead to a sore throat.
+
+Discover a prescription flu medicine that can help prevent the flu or shorten its duration.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_SuddenSymptoms" xml:space="preserve">
+    <value>The flu hits hard and comes on quickly, usually in 3 to 6 hours. Sudden symptoms such as high fever (100°F +), aches and pains are typical.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_TirednessFatigue" xml:space="preserve">
+    <value>It's normal to feel tired at the end of a long day or when you don't get adequate sleep, but unexplained tiredness can be a sign of the flu.</value>
+  </data>
+  <data name="FluSymptoms_FinalInfo_UnderstandSymptoms" xml:space="preserve">
+    <value>Of course, only your doctor or healthcare professional can make an accurate flu diagnosis, but understanding flu symptoms can help protect you and your family.
+
+Answer the following questions, and take it with you to your doctor. Remember, you have 12 to 48 hours to prevent and treat the flu with prescription antivirals, so act quickly.</value>
+  </data>
+  <data name="FluSymptoms_Question_Aches" xml:space="preserve">
+    <value>Experiencing body aches?</value>
+  </data>
+  <data name="FluSymptoms_Question_Chills" xml:space="preserve">
+    <value>Experiencing chills?</value>
+  </data>
+  <data name="FluSymptoms_Question_Coughing" xml:space="preserve">
+    <value>Is there coughing activity?</value>
+  </data>
+  <data name="FluSymptoms_Question_Fever" xml:space="preserve">
+    <value>How severe is the fever (°F)?</value>
+  </data>
+  <data name="FluSymptoms_Question_Sneezing" xml:space="preserve">
+    <value>Is sneezing activity more than usual?</value>
+  </data>
+  <data name="FluSymptoms_Question_SoreThroat" xml:space="preserve">
+    <value>Does patient have a sore throat?</value>
+  </data>
+  <data name="FluSymptoms_Question_SuddenSymptoms" xml:space="preserve">
+    <value>Experiencing sudden symptoms?</value>
+  </data>
+  <data name="FluSymptoms_Question_TirednessFatigue" xml:space="preserve">
+    <value>Experiencing unexplained tiredness?</value>
+  </data>
+  <data name="FluSymptoms_Question_UnderstandSymptoms" xml:space="preserve">
+    <value>Before we get started, who is this for?</value>
+  </data>
+  <data name="FluSymptoms_Title_Aches" xml:space="preserve">
+    <value>ACHES</value>
+  </data>
+  <data name="FluSymptoms_Title_Chills" xml:space="preserve">
+    <value>CHILLS</value>
+  </data>
+  <data name="FluSymptoms_Title_Coughing" xml:space="preserve">
+    <value>COUGHING</value>
+  </data>
+  <data name="FluSymptoms_Title_Fever" xml:space="preserve">
+    <value>FEVER</value>
+  </data>
+  <data name="FluSymptoms_Title_Sneezing" xml:space="preserve">
+    <value>SNEEZING</value>
+  </data>
+  <data name="FluSymptoms_Title_SoreThroat" xml:space="preserve">
+    <value>SORE THROAT</value>
+  </data>
+  <data name="FluSymptoms_Title_SuddenSymptoms" xml:space="preserve">
+    <value>SUDDEN SYMPTOMS</value>
+  </data>
+  <data name="FluSymptoms_Title_TirednessFatigue" xml:space="preserve">
+    <value>TIREDNESS &amp; FATIGUE</value>
+  </data>
+  <data name="FluSymptoms_Title_UnderstandSymptoms" xml:space="preserve">
+    <value>UNDERSTAND YOUR SYMPTOMS</value>
+  </data>
+  <data name="FluToolsDisclaimer" xml:space="preserve">
+    <value>DISCLAIMER: This is not a substitute for a professional, on-site medical diagnosis. However, you can use the saved symptoms results for discussion with your doctor or other healthcare professional during your visit, to aid in a professional diagnosis.</value>
+  </data>
+  <data name="MoreTopStoryURL" xml:space="preserve">
+    <value>http://t.cdc.gov/feed.aspx?tpc=26829&amp;days=90</value>
+  </data>
+  <data name="PodcastURL" xml:space="preserve">
+    <value>http://www2c.cdc.gov/podcasts/searchandcreaterss.asp?topic=flu</value>
+  </data>
+  <data name="Settings_ConfirmPasscodeEmptyMessage" xml:space="preserve">
+    <value>Please confirm your passcode.</value>
+  </data>
+  <data name="Settings_ConfirmPasscodeMismatchMessage" xml:space="preserve">
+    <value>Please make sure your passcodes match.</value>
+  </data>
+  <data name="Settings_LocationMessage" xml:space="preserve">
+    <value>Allow the app to use your current location to find places.
+To turn off location for all apps on your phone, go to the Settings app of your Windows Phone.</value>
+  </data>
+  <data name="Settings_PasscodeHeading" xml:space="preserve">
+    <value>Protect your data and maintain your privacy.</value>
+  </data>
+  <data name="Settings_PasscodeNotStoredWarning" xml:space="preserve">
+    <value>NOTE: Your password is never stored on your device for security purposes.  Please choose with care.  If you are unable to remember your passcode with the aid of your hint, you will be denied access, and may need to reset your application.</value>
+  </data>
+  <data name="Settings_PasscodeWarning" xml:space="preserve">
+    <value>NOTE: Please choose your passcode with care.  If you are unable to remember your passcode with the aid of your hint, you will be unable to access your diary, and may need to reset your application.</value>
+  </data>
+  <data name="Settings_PasswordHintRequiredMessage" xml:space="preserve">
+    <value>A password hint is required.</value>
+  </data>
+  <data name="TopStoryURL" xml:space="preserve">
+    <value>http://t.cdc.gov/feed.aspx?tpc=26816&amp;fromdate=1/1/2011</value>
+  </data>
+  <data name="WeeklyFluActivityUrl" xml:space="preserve">
+    <value>http://www.cdc.gov/flu/weekly/flureport.xml</value>
+  </data>
+  <data name="YahooApiBaseUrl" xml:space="preserve">
+    <value>http://local.yahooapis.com/LocalSearchService/V3/</value>
+  </data>
+  <data name="YahooApiKey" xml:space="preserve">
+    <value>1Gi7AprV34FVl9YbbzeN3ImhUbRLwqrS8LPBD7A7hNo_3NOLt0Mz8f1VhyPzgLcD.x2z</value>
+  </data>
+</root>

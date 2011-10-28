@@ -1,0 +1,15 @@
+http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1d6xwzun5e3_4dboj&state=WA&city=Seattle
+
+http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1d6xwzun5e3_4dboj&zip=30004
+
+http://www.zillow.com/webservice/GetRegionPostings.htm?zws-id=X1-ZWz1d6xwzun5e3_4dboj&zipcode=30004
+
+http://www.zillow.com/webservice/GetRegionPostings.htm?zws-id=X1-ZWz1d6xwzun5e3_4dboj&zipcode=30004&rental=true
+
+http://www.zillow.com/webservice/GetRegionPostings.htm?zws-id=X1-ZWz1d6xwzun5e3_4dboj&citystatezip=Seattle+WA&rental=true
+
+http://www.zillow.com/webservice/GetZestimate.htm?zws-id=X1-ZWz1d6xwzun5e3_4dboj&zpid=65471030
+
+http://api.careerbuilder.com/v1/jobsearch?&DeveloperKey=WDH50QY78HN4GCKZSD6M&Keywords=sales
+
+http://api.careerbuilder.com/v1/job?&DeveloperKey=WDH50QY78HN4GCKZSD6M&DID=JON6SX6ZL5YYQFYFZW9

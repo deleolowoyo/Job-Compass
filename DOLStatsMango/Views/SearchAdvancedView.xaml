@@ -1,0 +1,268 @@
+﻿<phone:PhoneApplicationPage 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" 
+    xmlns:phoneToolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit" 
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:coding4FunBinding="clr-namespace:Coding4Fun.Phone.Controls.Binding;assembly=Coding4Fun.Phone.Controls" 
+    xmlns:telerikInput="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Input" 
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives" 
+    xmlns:telerikCore="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core" 
+    xmlns:mvvmCommand="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP71" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" 
+    d:DesignWidth="480" 
+    d:DesignHeight="800" 
+    x:Class="DOLStatsMango.Views.SearchAdvancedView" 
+    mc:Ignorable="d" FontFamily="{StaticResource PhoneFontFamilyNormal}" 
+    Orientation="Portrait" 
+    shell:SystemTray.IsVisible="False" 
+    phoneToolkit:TiltEffect.IsTiltEnabled="True">
+
+        <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource JobCompassPageBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+    		<Image Source="/Resources/Images/LogoSmall.png" Width="166" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,0,0,0"/>
+            <TextBlock x:Name="PageTitle" Text="search" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}">
+    			<TextBlock.Foreground>
+    				<SolidColorBrush Color="{StaticResource PhoneYellowColor}"/>
+    			</TextBlock.Foreground>
+            </TextBlock>
+        </StackPanel>
+
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,-20,12,0">
+            <ScrollViewer VerticalAlignment="Top">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Vertical">
+                        <phoneToolkit:PhoneTextBox x:Name="txtSearchKeyword" 
+                                               Hint="Keyword (e.g. Sales)" 
+                                               coding4FunBinding:TextBinding.UpdateSourceOnChange="True" 
+                                               Text="{Binding Criteria.Keywords, Mode=TwoWay}" 
+                                               InputScope="Text" />
+                        <phoneToolkit:PhoneTextBox x:Name="txtCompanyName" 
+                                               Hint="Company Name (e.g HP)" 
+                                               coding4FunBinding:TextBinding.UpdateSourceOnChange="True" 
+                                               Text="{Binding Criteria.CompanyName, Mode=TwoWay}" 
+                                               InputScope="Text" />
+
+                    </StackPanel>
+                    <Grid Grid.Row="1" x:Name="grdLocation" Margin="0,30,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="location" Style="{StaticResource TextBlockYellowHeaderStyle}" 
+                                   Margin="12,0" />
+                        <Grid Grid.Row="1" Margin="12,-5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Button x:Name="btnFindLocation" Template="{StaticResource FindLocationButtonTemplate}" Click="btnFindLocation_Click" x:Uid="btnFindLocation" />
+                            <phoneToolkit:PhoneTextBox x:Name="txtLocation"
+                                                       Grid.Column="1" 
+                                                       Hint="city,state/zip" 
+                                                       coding4FunBinding:TextBinding.UpdateSourceOnChange="True" 
+                                                       Text="{Binding Criteria.FriendlyLocation, Mode=TwoWay}" 
+                                                       InputScope="Text" />
+                        </Grid>
+                        <TextBlock Text="include jobs within" 
+                                   Grid.Row="2" 
+                                   Style="{StaticResource TextBlockYellowHeaderStyle}" 
+                                   Margin="12,30,0,0"/>
+                        <telerikInput:RadListPicker x:Name="lpLocatedWithin" 
+                                                    Margin="12,0" 
+                                                    d:LayoutOverrides="Width, Height" 
+                                                    Grid.Row="3" 
+                                                    ItemsSource="{Binding JobRadiuses}" 
+                                                    PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}" 
+                                                    ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}" 
+                                                    SelectedItem="{Binding Criteria.Radius, Mode=TwoWay}" 
+                                                    InlineModeThreshold="1" 
+                                                    PopupHeader="JOB RADIUS" />
+                    </Grid>
+                    <Grid x:Name="grdPosted" Grid.Row="2" Margin="0,10,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="jobs posted" 
+                                   Style="{StaticResource TextBlockYellowHeaderStyle}" 
+                                   Margin="12,0,0,0"/>
+                        <telerikInput:RadListPicker x:Name="lpPostedWithin" 
+                                                    Margin="12,0" 
+                                                    d:LayoutOverrides="Width, Height" 
+                                                    Grid.Row="1" 
+                                                    ItemsSource="{Binding JobLastPostedDays}" 
+                                                    PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}" 
+                                                    ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}" 
+                                                    SelectedItem="{Binding Criteria.LastPosted, Mode=TwoWay}" 
+                                                    InlineModeThreshold="1" 
+                                                    PopupHeader="JOBS POSTED" />
+                    </Grid>
+                    <Grid x:Name="grdCategory" Grid.Row="3" Margin="0,30,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="category" 
+                                   Style="{StaticResource TextBlockYellowHeaderStyle}"
+                                   Margin="12,0,0,0"/>
+                        <telerikInput:RadListPicker x:Name="lpCategory" 
+                                                    Margin="12,0" 
+                                                    d:LayoutOverrides="Width, Height" 
+                                                    Grid.Row="1" 
+                                                    ItemsSource="{Binding JobCategories}" 
+                                                    PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}"
+                                                    ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}"
+                                                    SelectedItem="{Binding Criteria.Category, Mode=TwoWay}" 
+                                                    InlineModeThreshold="1" 
+                                                    PopupHeader="JOB CATEGORY" />
+                    </Grid>
+                    <Grid x:Name="grdDegree" Grid.Row="4" Margin="0,10,12,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="degree" 
+                                   Style="{StaticResource TextBlockYellowHeaderStyle}" 
+                                   Margin="12,0,0,0"/>
+                        <telerikInput:RadListPicker x:Name="lpDegree" Margin="12,0,0,0" d:LayoutOverrides="Width, Height" Grid.Row="1" ItemsSource="{Binding JobEducationCodes}" PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}" ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}" SelectedItem="{Binding Criteria.EducationCode, Mode=TwoWay}" InlineModeThreshold="1" PopupHeader="DEGREE" />
+                        <CheckBox Content="include all lower degrees" 
+                                  d:LayoutOverrides="Height" 
+                                  Grid.Row="2" 
+                                  VerticalAlignment="Top" 
+                                  FontSize="18.667" 
+                                  Margin="0,0,0,-5" 
+                                  IsChecked="{Binding Criteria.SpecificEducation}" />
+                    </Grid>
+                    <Grid x:Name="grdEmployment" Grid.Row="5" Margin="0,30,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="employment type" Style="{StaticResource TextBlockYellowHeaderStyle}"
+                                   Margin="12,0,0,0"/>
+                        <telerikInput:RadListPicker x:Name="lpEmploymentType" 
+                                                    Margin="12,0" 
+                                                    d:LayoutOverrides="Width, Height" 
+                                                    Grid.Row="1" 
+                                                    ItemsSource="{Binding JobEmployeeTypes}" 
+                                                    PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}" 
+                                                    ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}" 
+                                                    SelectedItem="{Binding Criteria.EmployeeType, Mode=TwoWay}" 
+                                                    InlineModeThreshold="1" 
+                                                    PopupHeader="EMPLOYMENT TYPE" />
+                    </Grid>
+                    <Grid x:Name="grdSalaryRange" Grid.Row="6" Margin="0,10,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="salary range" 
+                                   Grid.ColumnSpan="3" 
+                                   Style="{StaticResource TextBlockYellowHeaderStyle}" 
+                                   Margin="12,0,0,0"/>
+                        <telerikInput:RadListPicker x:Name="lpPayLow" 
+                                                    Margin="12,0" 
+                                                    d:LayoutOverrides="Width, Height" 
+                                                    Grid.Row="1"
+                                                    ItemsSource="{Binding Salaries}" 
+                                                    PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}" 
+                                                    ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}" 
+                                                    SelectedItem="{Binding Criteria.PayLow, Mode=TwoWay}" 
+                                                    InlineModeThreshold="1"
+                                                    PopupHeader="MINIMUM PAY" />
+                        <TextBlock Text="to" 
+                                   Grid.Row="1" 
+                                   Grid.Column="1" 
+                                   Style="{StaticResource TextBlockYellowNormalHeaderStyle}" 
+                                   VerticalAlignment="Center"/>
+                        <telerikInput:RadListPicker x:Name="lpPayHigh" 
+                                                    d:LayoutOverrides="Width, Height" 
+                                                    Grid.Row="1"
+                                                    Grid.Column="2" 
+                                                    ItemsSource="{Binding Salaries}" 
+                                                    PopupItemTemplate="{StaticResource SearchDropDownPopUpListPickerItemTemplate}" 
+                                                    ItemTemplate="{StaticResource SearchDropDownListPickerItemTemplate}" 
+                                                    SelectedItem="{Binding Criteria.PayHigh, Mode=TwoWay}" 
+                                                    InlineModeThreshold="1"
+                                                    PopupHeader="MAXIMUM PAY" />
+                    </Grid>
+                    <Grid x:Name="grdSearchButtons" Grid.Row="7">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Button Content="preview this search" 
+                                x:Name="btnPreviewSearch"
+                                d:LayoutOverrides="Height" 
+                                Grid.ColumnSpan="2" 
+                                Command="{Binding PreviewSearchCommand}" />
+                        <TextBlock x:Name="txtPreviewSearch"
+                                   Style="{StaticResource PhoneTextLargeStyle}"
+                                   Grid.ColumnSpan="2" 
+                                   TextWrapping="Wrap"
+                                   Visibility="Collapsed" Margin="12,5" />
+                        <Button Content="save this search" 
+                                d:LayoutOverrides="Height" 
+                                Grid.Row="1" 
+                                Grid.ColumnSpan="2" 
+                                Command="{Binding SaveSearchCommand}" />
+                        <Button Content="search" 
+                                x:Name="btnAdvancedSearch"
+                                d:LayoutOverrides="Width, Height" 
+                                Grid.Row="2" 
+                                Command="{Binding AdvancedSearchCommand}" />
+                        <Button Content="reset options" 
+                                d:LayoutOverrides="Width, Height" 
+                                Grid.Row="2" 
+                                Grid.Column="1" 
+                                Command="{Binding ResetSearchCriteriaCommand}" />
+                    </Grid>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+
+        <telerikPrimitives:RadBusyIndicator x:Name="busyIndicator"
+                                            Background="#CC000000"
+                                            IsRunning="{Binding IsBusy, Mode=TwoWay}" 
+                                            Visibility="{Binding IsBusy, Converter={StaticResource boolToVisibleConv}}"
+                                            Content=" " 
+                                            AnimationStyle="AnimationStyle7" Grid.RowSpan="2" Margin="0">
+            <telerikPrimitives:RadBusyIndicator.Foreground>
+                <SolidColorBrush Color="{StaticResource PhoneYellowColor}"/>
+            </telerikPrimitives:RadBusyIndicator.Foreground>
+        </telerikPrimitives:RadBusyIndicator>
+    </Grid>
+</phone:PhoneApplicationPage>

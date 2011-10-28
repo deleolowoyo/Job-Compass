@@ -1,0 +1,264 @@
+﻿<phone:PhoneApplicationPage 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" 
+    xmlns:phoneToolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit" 
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" 
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:mapControl="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps" 
+    x:Class="DOLStatsMango.Views.JobDetailsView" mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728" 
+    SupportedOrientations="Portrait" 
+    Orientation="Portrait" 
+    shell:SystemTray.IsVisible="False" 
+    phoneToolkit:TiltEffect.IsTiltEnabled="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource JobCompassPageBackgroundBrush}">
+        <!--Pivot Control-->
+        <controls:Pivot Title="JOB COMPASS" HeaderTemplate="{StaticResource PivotItemHeaderTemplate}" 
+						TitleTemplate="{StaticResource PivotTitleTemplate}">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="overview" BorderThickness="0">
+                <Grid x:Name="grdOverview" Margin="0,-20,0,0">
+                    <ScrollViewer>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <TextBlock x:Name="txtJobTitle" 
+                                       Text="{Binding JobInfo.JobTitle}" 
+                                       Style="{StaticResource PhoneTextListBoxLargeStyle}" 
+                                       VerticalAlignment="Top" 
+                                       HorizontalAlignment="Left" 
+                                       TextWrapping="Wrap" />
+                            <Grid x:Name="grdCompany" 
+                                  Grid.Row="1" 
+                                  HorizontalAlignment="Left" 
+                                  Margin="0,20,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="company" 
+                                           Style="{StaticResource TextBlockYellowHeaderStyle}" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding JobInfo.Company, Converter={StaticResource stringToNAConv}}" 
+                                           Style="{StaticResource PhoneTextListBoxNormalStyle}" 
+                                           Grid.Row="1" />
+                                <Button x:Name="btnMoreCompanyJobs" 
+                                                 Grid.Row="2" 
+                                            Margin="0,5,0,0"
+                                        Visibility="{Binding JobInfo.Company, Converter={StaticResource stringToVisibleConv}}" 
+                                            HorizontalAlignment="Left" 
+                                            Template="{StaticResource CompanyJobsButtonTemplate}" 
+                                            Click="btnMoreCompanyJobs_Click" />
+                            </Grid>
+                            <Grid x:Name="grdLocation" Grid.Row="2" HorizontalAlignment="Left" Margin="0,30,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="location" 
+                                           Style="{StaticResource TextBlockYellowHeaderStyle}" Margin="12,0,0,0" />
+                                <Grid Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="{Binding JobInfo.LocationFormatted}" 
+                                               Style="{StaticResource PhoneTextListBoxNormalStyle}" VerticalAlignment="Bottom" />
+                                    <Button x:Name="btnViewLargeMap" 
+                                            Grid.Column="1" 
+                                            Margin="12,0,0,0"
+                                            HorizontalAlignment="Right" 
+                                            Template="{StaticResource ViewLargeMapButtonTemplate}" 
+                                            Click="btnViewLargeMap_Click" />
+                                </Grid>
+                                <StackPanel Margin="0,5,0,0" Grid.Row="2">
+                                    <mapControl:Map x:Name="mapJobLocation" 
+                                                    CopyrightVisibility="Collapsed" 
+                                                    Width="450" 
+                                                    Margin="12,0,0,0" 
+                                                    IsHitTestVisible="False" 
+                                                    Height="150" />
+                                    <Button x:Name="btnNeighborhood" 
+                                            Margin="12,5,0,0"
+                                            HorizontalAlignment="Right" 
+                                            Template="{StaticResource AboutNeighborhoodButtonTemplate}" 
+                                            Command="{Binding AboutNeighborhoodCommand, Mode=OneWay}"
+                                            Click="btnNeighborhood_Click"/>
+                                </StackPanel>
+                            </Grid>
+                            <Grid x:Name="grdPayInfo" Grid.Row="3" HorizontalAlignment="Left" Margin="0,30,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <StackPanel>
+                                    <TextBlock Text="pay" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="pay_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.PayHighLowFormatted}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="TextBlock1" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                                    <TextBlock Text="manage others" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="manage_others_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.ManagesOthers, Converter={StaticResource boolToYesNoConv}}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="TextBlock2" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="2" Margin="0,10,0,0">
+                                    <TextBlock Text="employment type" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="employment_type_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.EmploymentType}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="_Binding_JobInfo_EmploymentType__TextBlock" />
+                                </StackPanel>
+                            </Grid>
+                            <Grid x:Name="grdEducation" Grid.Row="4" HorizontalAlignment="Left" Margin="0,30,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <StackPanel>
+                                    <TextBlock Text="req'd education" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="req_d_education_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.DegreeRequired}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="_Binding_JobInfo_DegreeRequired__TextBlock" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="1" Margin="0,10,0,0">
+                                    <TextBlock Text="req'd experience" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="req_d_experience_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.ExperienceRequired}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="TextBlock3" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="2" Margin="0,10,0,0">
+                                    <TextBlock Text="req'd travel" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="req_d_travel_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.TravelRequired}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="_Binding_JobInfo_TravelRequired__TextBlock" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="3" Margin="0,10,0,0">
+                                    <TextBlock Text="relocation covered" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="relocation_covered_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.RelocationCovered, Converter={StaticResource boolToYesNoConv}}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="TextBlock4" />
+                                </StackPanel>
+                            </Grid>
+                            <Grid x:Name="grdJobId" Grid.Row="5" Margin="0,30,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid HorizontalAlignment="Left">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="job field" 
+                                               Style="{StaticResource TextBlockYellowHeaderStyle}" 
+                                               TextWrapping="Wrap" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.Categories}" 
+                                               Style="{StaticResource PhoneTextListBoxNormalStyle}" 
+                                               Grid.Row="1"/>
+                                </Grid>
+                                <Button x:Name="btnIndustryStats" 
+                                        Grid.Row="1" 
+                                        Margin="0,5,0,0" 
+                                        Template="{StaticResource IndustryStatsButtonTemplate}" 
+                                        Visibility="{Binding JobInfo.Categories, Converter={StaticResource stringToVisibleConv}}" 
+                                        HorizontalAlignment="Right"
+                                        Click="btnIndustryStats_Click"/>
+                                <StackPanel Grid.Row="2" Margin="0,10,0,0" HorizontalAlignment="Left">
+                                    <TextBlock Text="job Id/reference code" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="job_Id_reference_code_TextBlock" Margin="12,0,0,0" />
+                                    <TextBlock Text="{Binding JobInfo.DisplayJobID}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="_Binding_JobInfo_DisplayJobID__TextBlock" />
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="details">
+                <Grid x:Name="grdDetail" Margin="0,-20,0,0">
+                    <ScrollViewer>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid x:Name="grdJobDescription">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="job description" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="job_description_TextBlock" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding JobInfo.JobDescription}" Style="{StaticResource PhoneTextListBoxNormalStyle}" Grid.Row="1" HorizontalAlignment="Left" TextWrapping="Wrap" x:Uid="_Binding_JobInfo_JobDescription__TextBlock" Margin="12,12,12,0" />
+                            </Grid>
+                            <Grid x:Name="grdJobRequirements" Grid.Row="1" HorizontalAlignment="Left" Margin="0,20,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="job requirements" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="job_requirements_TextBlock" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding JobInfo.JobRequirements}" Style="{StaticResource PhoneTextListBoxNormalStyle}" Grid.Row="1" HorizontalAlignment="Left" TextWrapping="Wrap" x:Uid="TextBlock5" Margin="12,12,12,0" />
+                            </Grid>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="contact">
+                <Grid x:Name="grdContact" Margin="0,-20,0,0">
+                    <ScrollViewer>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <StackPanel>
+                                <TextBlock Text="Posted By" Style="{StaticResource TextBlockYellowHeaderStyle}" x:Uid="Posted_By_TextBlock" Margin="12,0,0,0" />
+                                <TextBlock Text="{Binding JobInfo.Company}" Style="{StaticResource PhoneTextListBoxNormalStyle}" x:Uid="_Binding_JobInfo_Company__TextBlock1" />
+                                <Image Source="{Binding JobInfo.CompanyImageURL}" Margin="12,5,0,12" />
+                            </StackPanel>
+                            <Grid x:Name="grdContactInfo" Grid.Row="1" HorizontalAlignment="Left" Margin="12,20,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Button x:Name="btnContact" IsHitTestVisible="False" Template="{StaticResource JobContactButtonTemplate}" x:Uid="btnContact" />
+                                <Button x:Name="btnPhone" 
+                                        Grid.Row="1" Margin="0,5,0,0" 
+                                        Template="{StaticResource PhoneCallButtonTemplate}" 
+                                        Visibility="{Binding JobInfo.ContactInfoPhone, Converter={StaticResource stringToVisibleConv}}" 
+                                        Command="{Binding PhoneCallCommand, Mode=OneWay}" />
+                                <Button x:Name="btnSendEmail" 
+                                        Grid.Row="2"
+                                        Margin="0,5,0,0" 
+                                        Template="{StaticResource SendEmailButtonTemplate}" 
+                                        Visibility="Collapsed" 
+                                        Command="{Binding SendEmailCommand, Mode=OneWay}" x:Uid="btnSendEmail" />
+                                <Button x:Name="btnApply" 
+                                        Grid.Row="2"
+                                        Margin="0,5,0,0" 
+                                        Template="{StaticResource ApplyForJobButtonTemplate}" 
+                                        Command="{Binding ApplyForJobCommand, Mode=OneWay}" 
+                                        Visibility="Collapsed"/>
+                            </Grid>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+        <telerikPrimitives:RadBusyIndicator x:Name="busyIndicator" 
+                                            Background="#B2000000"
+                                            IsRunning="{Binding IsBusy, Mode=TwoWay}" 
+                                            Visibility="{Binding IsBusy, Converter={StaticResource boolToVisibleConv}}"
+                                            Content="Loading Job..." 
+                                            AnimationStyle="AnimationStyle7" >
+        	<telerikPrimitives:RadBusyIndicator.Foreground>
+        		<SolidColorBrush Color="{StaticResource PhoneYellowColor}"/>
+        	</telerikPrimitives:RadBusyIndicator.Foreground>
+        </telerikPrimitives:RadBusyIndicator>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProfilerSession Type="ExecutionPerformanceAnalysis" Name="DOLStatsMango634511297430998418">
+  <TargetApplication Name="DOLStatsMango" SourceProject="DOLStatsMango.csproj" Type="WindowsPhone71">
+    <ApplicationBinary Path="Bin\Debug\DOLStatsMango.xap" Timestamp="9/9/2011 1:49:13 AM" />
+    <ApplicationIconPath Path="" />
+    <SymbolPaths>
+      <Path Value="Bin\Debug\" />
+    </SymbolPaths>
+  </TargetApplication>
+  <Settings>
+    <Probe Name="Visual">
+      <CollectElementLevelCosting Enabled="True" />
+      <CollectSnapshots Enabled="False" Interval="" Resampling="" />
+      <CollectMediaEvents Enabled="False" />
+      <CollectCacheDetails Enabled="False" />
+    </Probe>
+    <Probe Name="Code">
+      <SampleCallStack Enabled="True" Depth="4294967295" Interval="10" />
+      <CollectPerformanceCounters Enabled="False" />
+    </Probe>
+    <Probe Name="Memory">
+      <MemoryCallStack Enabled="False" Depth="4294967295" />
+      <ObjectTree Enabled="False" Interval="10" />
+    </Probe>
+  </Settings>
+  <Data>
+    <Logs>
+      <File Type="NativeFormat" Path="PerformanceLogs\DOLStatsMango634511297430998418\tmp47C2.tmp" />
+    </Logs>
+  </Data>
+  <TargetDeviceSettings OSVersion="7.10.7712" AvailablePhysicalMemoryAtStartup="273817600" ProcessorArchitectureType="Arm" ProcessorInformation="Armv4ifp" IsEmulator="False" />
+</ProfilerSession>

@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{800936AE-7F44-4393-B27F-BC4A30A4B27C}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DOLStatsMango</RootNamespace>
+    <AssemblyName>DOLStatsMango</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>DOLStatsMango.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>DOLStatsMango.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.30701.0</ExpressionBlendVersion>
+    <SourceCulture>en-US</SourceCulture>
+    <TargetCultures>es-MX;</TargetCultures>
+    <TranslationFileFormat>nloc</TranslationFileFormat>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Coding4Fun.Phone.Controls, Version=1.4.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Coding4Fun.Phone.Controls.Complete.1.4.6\lib\Coding4Fun.Phone.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Phone.Controls.Toolkit, Version=1.4.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Coding4Fun.Phone.Controls.Complete.1.4.6\lib\Coding4Fun.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras.WP71">
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl4-windowsphone71\GalaSoft.MvvmLight.Extras.WP71.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.WP71">
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl4-windowsphone71\GalaSoft.MvvmLight.WP71.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls.Maps" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
+      <HintPath>..\packages\SilverlightToolkitWP.4.2011.8.17\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Newtonsoft.Json.WindowsPhone">
+      <HintPath>..\packages\Newtonsoft.Json.4.0.2\lib\sl3-wp\Newtonsoft.Json.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp.WindowsPhone">
+      <HintPath>..\packages\RestSharp.101.3\lib\sl3-wp\RestSharp.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Device" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Interactivity, Version=3.8.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLight.3.0.3\lib\sl4-windowsphone71\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="Telerik.Windows.Controls.Chart, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Controls.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Data, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Controls.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.DataVisualization, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Controls.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Input, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Controls.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Primitives, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Core, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Data, Version=2011.2.822.1037, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\e42cgki\AppData\Roaming\Telerik\Updates\01490NoDo_RadControls_for_WindowsPhone_2011_2_0822_DEV_hotfix_LIB\Binaries\WindowsPhone\Telerik.Windows.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Framework\Helpers\Converters.cs" />
+    <Compile Include="Framework\Helpers\IsolatedStorageKeys.cs" />
+    <Compile Include="Framework\Helpers\Utilities.cs" />
+    <Compile Include="Framework\IDataStorage.cs" />
+    <Compile Include="Framework\PersistentDataStorage.cs" />
+    <Compile Include="Framework\Services\CareerBuilder\CareerBuilderAPIService.cs" />
+    <Compile Include="Framework\Services\CareerBuilder\ICareerBuilderAPIService.cs" />
+    <Compile Include="Framework\Services\Yahoo\IYahooAPIService.cs" />
+    <Compile Include="Framework\Services\Yahoo\YahooAPIService.cs" />
+    <Compile Include="Framework\Services\Zillow\IZillowAPIService.cs" />
+    <Compile Include="Framework\Services\Zillow\ZillowAPIService.cs" />
+    <Compile Include="Framework\TransientDataStorage.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CareerBuilder\Country.cs" />
+    <Compile Include="Models\CareerBuilder\DTO\CategoryDTO.cs" />
+    <Compile Include="Models\CareerBuilder\DTO\EducationCodeDto.cs" />
+    <Compile Include="Models\CareerBuilder\DTO\EmployeeTypeDTO.cs" />
+    <Compile Include="Models\CareerBuilder\DTO\Error.cs" />
+    <Compile Include="Models\CareerBuilder\DTO\JobSearchResultDTO.cs" />
+    <Compile Include="Models\CareerBuilder\DTO\JobDetailDTO.cs" />
+    <Compile Include="Models\CareerBuilder\JobCategory.cs" />
+    <Compile Include="Models\CareerBuilder\JobDetail.cs" />
+    <Compile Include="Models\CareerBuilder\JobEducationCode.cs" />
+    <Compile Include="Models\CareerBuilder\JobEmployeeType.cs" />
+    <Compile Include="Models\CareerBuilder\JobLastPosted.cs" />
+    <Compile Include="Models\CareerBuilder\JobRadius.cs" />
+    <Compile Include="Models\CareerBuilder\JobSalary.cs" />
+    <Compile Include="Models\CareerBuilder\JobSearchCriteria.cs" />
+    <Compile Include="Models\CareerBuilder\JobSearchResultInfo.cs" />
+    <Compile Include="Models\DOL\OccupationalClass.cs" />
+    <Compile Include="Models\DOL\OccupationalStats.cs" />
+    <Compile Include="Models\JobSearchEnum.cs" />
+    <Compile Include="Models\MapPushPin.cs" />
+    <Compile Include="Models\ModelBase.cs" />
+    <Compile Include="Models\Setting.cs" />
+    <Compile Include="Models\Yahoo\Address.cs" />
+    <Compile Include="Models\Yahoo\DTO\AddressDTO.cs" />
+    <Compile Include="Models\Zillow\DemographicMainInfo.cs" />
+    <Compile Include="Models\Zillow\DTO\DemographicDTO.cs" />
+    <Compile Include="Models\Zillow\DTO\PostingDTO.cs" />
+    <Compile Include="Models\Zillow\PostingInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\en\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\DelegateCommand.cs" />
+    <Compile Include="ViewModels\JobViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\SearchViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="Views\AboutView.xaml.cs">
+      <DependentUpon>AboutView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CompanySearchResults.xaml.cs">
+      <DependentUpon>CompanySearchResults.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HourlyJobGauge.xaml.cs">
+      <DependentUpon>HourlyJobGauge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ErrorView.xaml.cs">
+      <DependentUpon>ErrorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\JobDataView.xaml.cs">
+      <DependentUpon>JobDataView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\JobDetailsView.xaml.cs">
+      <DependentUpon>JobDetailsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\JobMapView.xaml.cs">
+      <DependentUpon>JobMapView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\JobStatsView.xaml.cs">
+      <DependentUpon>JobStatsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NeighborhoodView.xaml.cs">
+      <DependentUpon>NeighborhoodView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\YearlyJobGauge.xaml.cs">
+      <DependentUpon>YearlyJobGauge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SavedJobsView.xaml.cs">
+      <DependentUpon>SavedJobsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SavedSearchesView.xaml.cs">
+      <DependentUpon>SavedSearchesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchAdvancedView.xaml.cs">
+      <DependentUpon>SearchAdvancedView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchResultsView.xaml.cs">
+      <DependentUpon>SearchResultsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsView.xaml.cs">
+      <DependentUpon>SettingsView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DOLStatsMango_2011_09_09_01_49_02.sap" />
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+    <None Include="Thumbs.db" />
+    <None Include="Toolkit.Content\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.cancel.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.check.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\appbar.delete.rest.png" />
+    <Resource Include="PivotBackground.png" />
+    <Content Include="Resources\Images\AppBarSelectAll.png" />
+    <Content Include="Resources\Images\E-Mail.png" />
+    <Content Include="Resources\Images\Earth.png" />
+    <Content Include="Resources\Images\Logo.png" />
+    <Content Include="Resources\Images\LogoSmall.png" />
+    <Content Include="Resources\Images\RedDownArrow.png" />
+    <Content Include="Resources\Images\Star.png" />
+    <Content Include="Resources\Images\Tiles\ShellTileBackBkrnd.png" />
+    <Content Include="Resources\Images\Tiles\ShellTileBkrnd.png" />
+    <Content Include="Resources\Images\Twitter.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Resource Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Resource Include="Toolkit.Content\ApplicationBar.Select.png" />
+    <Resource Include="PanoramaBackground.png" />
+    <Resource Include="icons\appbar.download.rest.png" />
+    <Resource Include="icons\appbar.questionmark.rest.png" />
+    <Content Include="icons\appbar.favs.addto.rest.png" />
+    <Content Include="icons\appbar.save.rest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="icons\appbar.sync.rest.png" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Resources\Images\AppBarFavoriteAdd.png" />
+    <Content Include="Resources\Images\AppBarFavoriteRemove.png" />
+    <Content Include="Resources\Images\AppBarPushPin.png" />
+    <Content Include="Resources\Images\AppBarRefresh.png" />
+    <Content Include="Resources\Images\AppBarBulletList.png" />
+    <Content Include="Resources\Images\DemographicBkrndShortHeader.png" />
+    <Content Include="Resources\Images\Directions.png" />
+    <Content Include="Resources\Images\Eye.png" />
+    <Content Include="Resources\Images\JumpListHeader.png" />
+    <Content Include="Resources\Images\MapPinColor.png" />
+    <Content Include="Resources\Images\menuBullet.png" />
+    <Content Include="Resources\Images\Person.png" />
+    <Content Include="Resources\Images\Phone.png" />
+    <Content Include="Resources\Images\MapPin.png" />
+    <Content Include="Resources\Images\Email.png" />
+    <Content Include="Resources\Images\AppBarSearch.png" />
+    <Content Include="Resources\Images\AppBarLocation.png" />
+    <Content Include="Resources\Images\AppBarShareThis.png" />
+    <Content Include="Resources\Images\AppBarBusinessPerson.png" />
+    <Content Include="Resources\Images\AppBarSort.png" />
+    <Content Include="Resources\Images\AppBarRevert.png" />
+    <Content Include="Resources\Images\AppBarDocument.png" />
+    <Content Include="Resources\Images\AppBarFunnel.png" />
+    <Content Include="Resources\Images\findLocationBlack.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\findLocationWhite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Data\CountryCodes.xml" />
+    <Content Include="Resources\Data\OccupationalClassifications.xml" />
+    <Content Include="Resources\Data\OES.xml" />
+    <Content Include="Resources\Data\OESSTATE.xml" />
+    <Content Include="Resources\Data\PostedTimePeriod.xml" />
+    <Content Include="Resources\Data\Radius.xml" />
+    <Content Include="Resources\Data\Salary.xml" />
+    <Content Include="Resources\Images\locationFind.png" />
+    <Content Include="Resources\Images\locationFindBlack.png" />
+    <Content Include="Resources\Images\locationPin.png" />
+    <Content Include="Resources\Images\DemographicBkrndLongHeader.png" />
+    <Content Include="Resources\Images\Search.png" />
+    <Content Include="Resources\Images\statistics.png" />
+    <Content Include="Resources\Images\ProvidedByZillow150.png" />
+    <Content Include="Resources\Images\ProvidedByZillow200.png" />
+    <Content Include="Resources\Images\ZillowJustZ.png" />
+    <Content Include="Resources\Images\ZillowlogoPng_150x40.png" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Theme\AppResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Theme\DarkStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Theme\LightStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AboutView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CompanySearchResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HourlyJobGauge.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ErrorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\JobDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\JobDetailsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\JobMapView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\JobStatsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NeighborhoodView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\YearlyJobGauge.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SavedJobsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SavedSearchesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SearchAdvancedView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SearchResultsView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\SettingsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Framework\Services\Trulia\" />
+    <Folder Include="Models\Trulia\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\en\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="NLocalize.targets" />
+</Project>

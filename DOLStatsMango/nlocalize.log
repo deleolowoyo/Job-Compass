@@ -1,0 +1,1702 @@
+9/10/2011 12:03:53 AM  Thread Id: 15528 Information : # RemotingClient: exiting
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Merged version, configuring serialization binder retargets.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file App.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file App.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file App.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file MainPage.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file MainPage.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file MainPage.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/10/2011 12:03:53 AM  Thread Id: 12660 Information : # RemotingClient: message thread stopped. Stopped
+
+9/12/2011 2:32:43 PM  Thread Id: 8776 Information : # Opening channel NLocalize.VisualStudio.3844
+
+9/12/2011 2:32:44 PM  Thread Id: 8776 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/12/2011 2:32:44 PM  Thread Id: 16500 Information : # RemotingClient: message received
+
+9/12/2011 2:32:44 PM  Thread Id: 16500 Information : # messages: LogEvent
+
+9/12/2011 2:32:44 PM  Thread Id: 8776 Information : Host Process: devenv (3844), App Domain: taskAppDomain (in-proc) (6), Thread: 1
+
+9/12/2011 2:32:44 PM  Thread Id: 8776 Information : Host Object: 
+
+9/12/2011 2:32:44 PM  Thread Id: 16500 Information : # RemotingClient: sending messages
+
+9/12/2011 2:32:44 PM  Thread Id: 16500 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/12/2011 2:32:44 PM  Thread Id: 16500 Information : # RemotingClient: exiting
+
+9/12/2011 2:32:45 PM  Thread Id: 8776 Information : Merged version, configuring serialization binder retargets.
+
+9/12/2011 2:32:46 PM  Thread Id: 8776 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file App.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file App.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file App.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file MainPage.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file MainPage.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file MainPage.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/12/2011 2:32:48 PM  Thread Id: 8776 Information : # RemotingClient: message thread stopped. Stopped
+
+9/12/2011 2:34:49 PM  Thread Id: 8776 Information : # Opening channel NLocalize.VisualStudio.3844
+
+9/12/2011 2:34:49 PM  Thread Id: 8776 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/12/2011 2:34:49 PM  Thread Id: 12224 Information : # RemotingClient: message received
+
+9/12/2011 2:34:49 PM  Thread Id: 12224 Information : # messages: LogEvent
+
+9/12/2011 2:34:49 PM  Thread Id: 12224 Information : # RemotingClient: sending messages
+
+9/12/2011 2:34:49 PM  Thread Id: 8776 Information : Host Process: devenv (3844), App Domain: taskAppDomain (in-proc) (12), Thread: 1
+
+9/12/2011 2:34:49 PM  Thread Id: 8776 Information : Host Object: 
+
+9/12/2011 2:34:49 PM  Thread Id: 12224 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/12/2011 2:34:49 PM  Thread Id: 12224 Information : # RemotingClient: exiting
+
+9/12/2011 2:34:49 PM  Thread Id: 8776 Information : Merged version, configuring serialization binder retargets.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file App.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file App.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file App.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file MainPage.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file MainPage.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file MainPage.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/12/2011 2:34:50 PM  Thread Id: 8776 Information : # RemotingClient: message thread stopped. Stopped
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : # Opening channel NLocalize.VisualStudio.3844
+
+9/12/2011 2:35:50 PM  Thread Id: 5160 Information : # RemotingClient: message received
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/12/2011 2:35:50 PM  Thread Id: 5160 Information : # messages: LogEvent
+
+9/12/2011 2:35:50 PM  Thread Id: 5160 Information : # RemotingClient: sending messages
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Host Process: devenv (3844), App Domain: taskAppDomain (in-proc) (17), Thread: 1
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Host Object: 
+
+9/12/2011 2:35:50 PM  Thread Id: 5160 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/12/2011 2:35:50 PM  Thread Id: 5160 Information : # RemotingClient: exiting
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Merged version, configuring serialization binder retargets.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file App.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file App.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file App.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file MainPage.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file MainPage.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file MainPage.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/12/2011 2:35:50 PM  Thread Id: 8776 Information : # RemotingClient: message thread stopped. Stopped
+
+9/13/2011 5:02:54 AM  Thread Id: 15272 Information : # Opening channel NLocalize.VisualStudio.16256
+
+9/13/2011 5:02:54 AM  Thread Id: 15272 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/13/2011 5:02:54 AM  Thread Id: 16908 Information : # RemotingClient: message received
+
+9/13/2011 5:02:54 AM  Thread Id: 16908 Information : # messages: LogEvent
+
+9/13/2011 5:02:54 AM  Thread Id: 16908 Information : # RemotingClient: sending messages
+
+9/13/2011 5:02:54 AM  Thread Id: 15272 Information : Host Process: devenv (16256), App Domain: taskAppDomain (in-proc) (6), Thread: 1
+
+9/13/2011 5:02:54 AM  Thread Id: 15272 Information : Host Object: 
+
+9/13/2011 5:02:55 AM  Thread Id: 16908 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/13/2011 5:02:55 AM  Thread Id: 16908 Information : # RemotingClient: exiting
+
+9/13/2011 5:02:55 AM  Thread Id: 15272 Information : Merged version, configuring serialization binder retargets.
+
+9/13/2011 5:02:56 AM  Thread Id: 15272 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file App.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file App.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file App.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file MainPage.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file MainPage.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file MainPage.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/13/2011 5:02:58 AM  Thread Id: 15272 Information : # RemotingClient: message thread stopped. Stopped
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : # Opening channel NLocalize.VisualStudio.16256
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/13/2011 5:15:53 AM  Thread Id: 7844 Information : # RemotingClient: message received
+
+9/13/2011 5:15:53 AM  Thread Id: 7844 Information : # messages: LogEvent
+
+9/13/2011 5:15:53 AM  Thread Id: 7844 Information : # RemotingClient: sending messages
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Host Process: devenv (16256), App Domain: taskAppDomain (in-proc) (11), Thread: 1
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Host Object: 
+
+9/13/2011 5:15:53 AM  Thread Id: 7844 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/13/2011 5:15:53 AM  Thread Id: 7844 Information : # RemotingClient: exiting
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Merged version, configuring serialization binder retargets.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file App.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file App.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file App.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file MainPage.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file MainPage.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file MainPage.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/13/2011 5:15:53 AM  Thread Id: 15272 Information : # RemotingClient: message thread stopped. Stopped
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : # Opening channel NLocalize.VisualStudio.16256
+
+9/13/2011 5:37:17 AM  Thread Id: 14376 Information : # RemotingClient: message received
+
+9/13/2011 5:37:17 AM  Thread Id: 14376 Information : # messages: LogEvent
+
+9/13/2011 5:37:17 AM  Thread Id: 14376 Information : # RemotingClient: sending messages
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Host Process: devenv (16256), App Domain: taskAppDomain (in-proc) (16), Thread: 1
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Host Object: 
+
+9/13/2011 5:37:17 AM  Thread Id: 14376 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/13/2011 5:37:17 AM  Thread Id: 14376 Information : # RemotingClient: exiting
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Merged version, configuring serialization binder retargets.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file App.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file App.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file App.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file MainPage.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file MainPage.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file MainPage.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/13/2011 5:37:17 AM  Thread Id: 15272 Information : # RemotingClient: message thread stopped. Stopped
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : # Opening channel NLocalize.VisualStudio.16256
+
+9/13/2011 5:42:55 AM  Thread Id: 12452 Information : # RemotingClient: message received
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/13/2011 5:42:55 AM  Thread Id: 12452 Information : # messages: LogEvent
+
+9/13/2011 5:42:55 AM  Thread Id: 12452 Information : # RemotingClient: sending messages
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Host Process: devenv (16256), App Domain: taskAppDomain (in-proc) (21), Thread: 1
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Host Object: 
+
+9/13/2011 5:42:55 AM  Thread Id: 12452 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/13/2011 5:42:55 AM  Thread Id: 12452 Information : # RemotingClient: exiting
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Merged version, configuring serialization binder retargets.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file App.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file App.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file App.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file MainPage.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file MainPage.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file MainPage.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/13/2011 5:42:55 AM  Thread Id: 15272 Information : # RemotingClient: message thread stopped. Stopped
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : # Opening channel NLocalize.VisualStudio.16256
+
+9/13/2011 5:47:22 AM  Thread Id: 6396 Information : # RemotingClient: message received
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/13/2011 5:47:22 AM  Thread Id: 6396 Information : # messages: LogEvent
+
+9/13/2011 5:47:22 AM  Thread Id: 6396 Information : # RemotingClient: sending messages
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Host Process: devenv (16256), App Domain: taskAppDomain (in-proc) (26), Thread: 1
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Host Object: 
+
+9/13/2011 5:47:22 AM  Thread Id: 6396 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/13/2011 5:47:22 AM  Thread Id: 6396 Information : # RemotingClient: exiting
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Merged version, configuring serialization binder retargets.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file MainPage.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file MainPage.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file MainPage.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file App.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file App.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file App.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/13/2011 5:47:22 AM  Thread Id: 15272 Information : # RemotingClient: message thread stopped. Stopped
+
+9/13/2011 5:51:54 AM  Thread Id: 15272 Information : # Opening channel NLocalize.VisualStudio.16256
+
+9/13/2011 5:51:54 AM  Thread Id: 15272 Information : NLocalize Version: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\NLocalize.dll NLocalize_Merged, Version=1.0.11237.1, Culture=neutral, PublicKeyToken=f43018a0b6e471ea
+
+9/13/2011 5:51:54 AM  Thread Id: 13688 Information : # RemotingClient: message received
+
+9/13/2011 5:51:54 AM  Thread Id: 13688 Information : # messages: LogEvent; LogEvent
+
+9/13/2011 5:51:54 AM  Thread Id: 13688 Information : # RemotingClient: sending messages
+
+9/13/2011 5:51:54 AM  Thread Id: 15272 Information : Host Process: devenv (16256), App Domain: taskAppDomain (in-proc) (31), Thread: 1
+
+9/13/2011 5:51:54 AM  Thread Id: 15272 Information : Host Object: 
+
+9/13/2011 5:51:54 AM  Thread Id: 13688 Error : # Cannot send messages to Visual Studio: System.Runtime.Remoting.RemotingException: Failed to connect to an IPC Port: The system cannot find the file specified.
+ 
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Connect(String portName, Boolean secure, TokenImpersonationLevel impersonationLevel, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.ConnectionCache.GetConnection(String portName, Boolean secure, TokenImpersonationLevel level, Int32 timeout)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Neovelop.Common.IGenericIpcService.ProcessMessage(String[] messages)
+   at NLocalize.BuildTask.RemotingClient.SendMessageInternal(Object[] messages)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()Stacktrace:    at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg)
+   at NLocalize.BuildTask.BuildLogger.WriteLogEntry(TraceEventType severity, String msg, Object[] parameters)
+   at Neovelop.Common.Log.Error(String message, Object[] parameters)
+   at NLocalize.BuildTask.RemotingClient.StartSendingMessages()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+
+9/13/2011 5:51:54 AM  Thread Id: 13688 Information : # RemotingClient: exiting
+
+9/13/2011 5:51:54 AM  Thread Id: 15272 Information : Merged version, configuring serialization binder retargets.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Starting Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\DarkStyles.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\DarkStyles.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\DarkStyles.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file MainPage.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file MainPage.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file MainPage.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file App.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file App.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file App.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\AppResources.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\AppResources.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\AppResources.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Resources\Theme\LightStyles.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Resources\Theme\LightStyles.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Resources\Theme\LightStyles.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\AboutView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\AboutView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\AboutView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\CompanySearchResults.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\CompanySearchResults.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\CompanySearchResults.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\HourlyJobGauge.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\HourlyJobGauge.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\HourlyJobGauge.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\ErrorView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\ErrorView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\ErrorView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\JobDataView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDataView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDataView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\JobDetailsView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobDetailsView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobDetailsView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\JobMapView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobMapView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobMapView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\JobStatsView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\JobStatsView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\JobStatsView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\NeighborhoodView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\NeighborhoodView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\NeighborhoodView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\YearlyJobGauge.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\YearlyJobGauge.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\YearlyJobGauge.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\SavedJobsView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedJobsView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedJobsView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\SavedSearchesView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SavedSearchesView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SavedSearchesView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\SearchAdvancedView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchAdvancedView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchAdvancedView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\SearchResultsView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SearchResultsView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SearchResultsView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Localizing file Views\SettingsView.xaml, es-MX
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources from file Views\SettingsView.xaml
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Could not load any resources for file Views\SettingsView.xaml.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Finished Localization of project C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\DOLStatsMango.csproj. Generated 0 BAML files and 0 Resource files.
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Project Directory: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : Intermediate Output Path: C:\Users\e42cgki\Desktop\WorkDocs\WindowsPhone7\DOLStatsMango\DOLStatsMango\obj\Release\
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : # RemotingClient: Waiting for sending thread to finish
+
+9/13/2011 5:51:55 AM  Thread Id: 15272 Information : # RemotingClient: message thread stopped. Stopped
+

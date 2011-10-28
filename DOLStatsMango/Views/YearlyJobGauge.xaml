@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="DOLStatsMango.Views.YearlyJobGauge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:telerikDataVis="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.DataVisualization"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneRealForegroundBrush}"
+    d:DesignHeight="120" d:DesignWidth="100">
+    
+    <Grid x:Name="LayoutRoot">        
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+
+            <TextBlock Text="{Binding Path=ActualValue, ElementName=mainIndicator, StringFormat=$\{0\}K}"
+                       FontFamily="Segoe WP Semibold"
+                       HorizontalAlignment="Center"/>
+            <telerikDataVis:RadialGaugeRange TickStep="0"
+                                             LabelStep="0"
+                                             Width="100"
+                                             Height="100"
+                                             MaxValue="1000">
+                <telerikDataVis:RadialBarGaugeIndicator Value="1000"
+                                                        BarThickness="25"
+                                                        BarBrush="{StaticResource PhoneRealForegroundBrush}"
+                                                        telerikDataVis:RadialGaugeRange.IndicatorRadiusScale="0.6"/>
+                <telerikDataVis:RadialBarGaugeIndicator Value="0"
+                                                        BarThickness="25"
+                                                        BarBrush="{StaticResource PhoneYellowBrush}"
+                                                        telerikDataVis:RadialGaugeRange.IndicatorRadiusScale="0.6"
+                                                        x:Name="mainIndicator"
+                                                        IsAnimated="True"/>
+            </telerikDataVis:RadialGaugeRange>
+        </StackPanel>
+        <TextBlock FontSize="14"
+                   Foreground="{StaticResource PhoneRealForegroundBrush}"
+                   Text="10th"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="0, 0, 0, 25"
+                   x:Name="jGauge"/>
+    </Grid>
+</UserControl>

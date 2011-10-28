@@ -1,0 +1,287 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="DOLStatsMango.MainPage" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone" 
+    xmlns:phoneToolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit" 
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" 
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" 
+    xmlns:telerikChart="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Chart" 
+    xmlns:telerikDataVis="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.DataVisualization"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives" 
+    xmlns:telerikCore="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:coding4FunBinding="clr-namespace:Coding4Fun.Phone.Controls.Binding;assembly=Coding4Fun.Phone.Controls" 
+    xmlns:mvvmCommand="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP71" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+    mc:Ignorable="d" 
+    d:DesignWidth="480" 
+    d:DesignHeight="800" 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}" 
+    FontSize="{StaticResource PhoneFontSizeNormal}" 
+    Foreground="{StaticResource PhoneForegroundBrush}" 
+    SupportedOrientations="Portrait" 
+    Orientation="Portrait" 
+    shell:SystemTray.IsVisible="False" 
+    phoneToolkit:TiltEffect.IsTiltEnabled="True"
+    telerikCore:InteractionEffectManager.IsInteractionEnabled="true">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <!--Panorama control-->
+        <controls:Panorama Title="my application" Background="{StaticResource JobCompassPanoramaBackgroundBrush}">
+            <controls:Panorama.TitleTemplate>
+                <DataTemplate>
+                    <Grid Margin="15,80,0,0">
+                        <Image Source="/Resources/Images/Logo.png" />
+                    </Grid>
+                </DataTemplate>
+            </controls:Panorama.TitleTemplate>
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="quick search" 
+								   Margin="0,-25,0,0" 
+								   HeaderTemplate="{StaticResource PanoramaItemHeaderTemplate}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <phoneToolkit:PhoneTextBox x:Name="txtSearchKeyword" 
+                                               Hint="Keyword (e.g. Sales)" 
+                                               ActionIcon="/Resources/Images/Search.png" 
+                                               ActionIconTapped="txtSearchKeyword_ActionIconTapped" 
+                                               coding4FunBinding:TextBinding.UpdateSourceOnChange="True" 
+                                               Text="{Binding Criteria.Keywords, Mode=TwoWay}" 
+                                               InputScope="Search"
+                                               KeyDown="txtSearchKeyword_KeyDown"/>
+
+                    <Button x:Name="btnAdvancedSearch" 
+                            Content="advanced search" 
+                            d:LayoutOverrides="Height" 
+                            Grid.Row="1" 
+                            Click="btnAdvancedSearch_Click" 
+                            x:Uid="btnAdvancedSearch" />
+                </Grid>
+                <!--Double line list with text wrapping-->
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <!--Use 'Orientation="Horizontal"' to enable a panel that lays out horizontally-->
+            <controls:PanoramaItem Header="job trends" Margin="0,-25,0,0" HeaderTemplate="{StaticResource PanoramaItemHeaderTemplate}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="btnEmployment"
+                                Content="Employed" 
+                                IsEnabled="False"
+                                Click="btnEmployment_Click" />
+                        <Button x:Name="btnYearly"
+                                Content="Salary" 
+                                Margin="5,0,0,0"
+                                Click="btnYearly_Click" />
+                        <Button x:Name="btnHourly"
+                                Content="Hourly" 
+                                Margin="5,0,0,0"
+                                Click="btnHourly_Click" />
+                    </StackPanel>
+                    <TextBlock Text="TOP EMPLOYED OCCUPATIONS IN 2010" 
+                               Grid.Row="1"
+                               x:Name="txtChartHeading"
+                               FontSize="16" 
+                               FontWeight="Bold" 
+                               Style="{StaticResource PhoneTextListBoxNormalBoldStyle}" />
+                    <telerikChart:RadCartesianChart x:Name="radChartEmployment"
+                                                    Grid.Row="2"
+                                                    d:LayoutOverrides="Height"
+                                                    Margin="5,0,0,20">
+
+                        <telerikChart:RadCartesianChart.Behaviors>
+                            <telerikChart:ChartTooltipBehavior TriggerMode="Tap" 
+                                                               SnapToClosestPoint="True" />
+                        </telerikChart:RadCartesianChart.Behaviors>
+
+                        <telerikChart:RadCartesianChart.Grid>
+                            <telerikChart:CartesianChartGrid Style="{StaticResource gridStyleDashed}" MajorLinesVisibility="Y"/>
+                        </telerikChart:RadCartesianChart.Grid>
+
+                        <telerikChart:RadCartesianChart.VerticalAxis>
+                            <telerikChart:LinearAxis LineStroke="{StaticResource PhoneDisabledBrush}" 
+                                                     LineThickness="2"
+                                                     LabelFormat="#,#"
+                                                     LabelInterval="2"/>
+                        </telerikChart:RadCartesianChart.VerticalAxis>
+
+                        <telerikChart:RadCartesianChart.HorizontalAxis>
+                            <telerikChart:CategoricalAxis LabelFitMode="Rotate"
+                                                          ShowLabels="False" />
+                        </telerikChart:RadCartesianChart.HorizontalAxis>
+
+                        <telerikChart:BarSeries CategoryBinding="Title"
+                                                ValueBinding="TotalEmployment"
+                                                ItemsSource="{Binding TopJobEmploymentStats, Mode=TwoWay}">
+                            <telerikChart:BarSeries.PointTemplate>
+                                <DataTemplate>
+                                    <Border Background="{StaticResource PhoneYellowBrush}" 
+                                            BorderBrush="{StaticResource PhoneForegroundBrush}" 
+                                            BorderThickness="2"/>
+                                </DataTemplate>
+                            </telerikChart:BarSeries.PointTemplate>
+                        </telerikChart:BarSeries>
+                    </telerikChart:RadCartesianChart>
+                    <telerikChart:RadCartesianChart Grid.Row="2" 
+                                                    x:Name="radChartYearly"
+                                                    Visibility="Collapsed"
+                                                    d:LayoutOverrides="Width, Height"
+                                                    Margin="0,0,0,20">
+
+                        <telerikChart:RadCartesianChart.Behaviors>
+                            <telerikChart:ChartTooltipBehavior TriggerMode="Tap" 
+                                                               SnapToClosestPoint="True"/>
+                        </telerikChart:RadCartesianChart.Behaviors>
+
+                        <telerikChart:RadCartesianChart.Grid>
+                            <telerikChart:CartesianChartGrid Style="{StaticResource gridStyleDashed}" MajorLinesVisibility="Y"/>
+                        </telerikChart:RadCartesianChart.Grid>
+
+                        <telerikChart:RadCartesianChart.VerticalAxis>
+                            <telerikChart:LinearAxis LineStroke="{StaticResource PhoneDisabledBrush}" 
+                                                     LineThickness="2"
+                                                     LabelFormat="$#,#"
+                                                     LabelInterval="2" />
+                        </telerikChart:RadCartesianChart.VerticalAxis>
+
+                        <telerikChart:RadCartesianChart.HorizontalAxis>
+                            <telerikChart:CategoricalAxis LabelFitMode="Rotate"
+                                                          ShowLabels="False"/>
+                        </telerikChart:RadCartesianChart.HorizontalAxis>
+
+                        <telerikChart:BarSeries CategoryBinding="Title" 
+                                                ValueBinding="YearlyMeanWage" 
+                                                ItemsSource="{Binding TopJobYearlyStats, Mode=TwoWay}">
+                            <telerikChart:BarSeries.PointTemplate>
+                                <DataTemplate>
+                                    <Border Background="{StaticResource PhoneYellowBrush}" 
+                                            BorderBrush="{StaticResource PhoneForegroundBrush}" 
+                                            BorderThickness="2"/>
+                                </DataTemplate>
+                            </telerikChart:BarSeries.PointTemplate>
+                        </telerikChart:BarSeries>
+
+                    </telerikChart:RadCartesianChart>
+                    <telerikChart:RadCartesianChart Grid.Row="2" 
+                                                    x:Name="radChartHourly"
+                                                    Visibility="Collapsed"
+                                                    d:LayoutOverrides="Width, Height"
+                                                    Margin="0,0,0,20">
+
+                        <telerikChart:RadCartesianChart.Behaviors>
+                            <telerikChart:ChartTooltipBehavior TriggerMode="Tap" 
+                                                               SnapToClosestPoint="True"/>
+                        </telerikChart:RadCartesianChart.Behaviors>
+
+                        <telerikChart:RadCartesianChart.Grid>
+                            <telerikChart:CartesianChartGrid Style="{StaticResource gridStyleDashed}" MajorLinesVisibility="Y"/>
+                        </telerikChart:RadCartesianChart.Grid>
+
+                        <telerikChart:RadCartesianChart.VerticalAxis>
+                            <telerikChart:LinearAxis LineStroke="{StaticResource PhoneDisabledBrush}" 
+                                                     LineThickness="2"
+                                                     LabelFormat="$#,#"
+                                                     LabelInterval="2" />
+                        </telerikChart:RadCartesianChart.VerticalAxis>
+
+                        <telerikChart:RadCartesianChart.HorizontalAxis>
+                            <telerikChart:CategoricalAxis LabelFitMode="Rotate"
+                                                          ShowLabels="False"/>
+                        </telerikChart:RadCartesianChart.HorizontalAxis>
+
+                        <telerikChart:BarSeries CategoryBinding="Title" 
+                                                ValueBinding="HourlyMeanWage" 
+                                                ItemsSource="{Binding TopJobHourlyStats, Mode=TwoWay}">
+                            <telerikChart:BarSeries.PointTemplate>
+                                <DataTemplate>
+                                    <Border Background="{StaticResource PhoneYellowBrush}" 
+                                            BorderBrush="{StaticResource PhoneForegroundBrush}" 
+                                            BorderThickness="2"/>
+                                </DataTemplate>
+                            </telerikChart:BarSeries.PointTemplate>
+                        </telerikChart:BarSeries>
+
+                    </telerikChart:RadCartesianChart>
+                    <telerikPrimitives:RadBusyIndicator x:Name="busyIndicator" 
+                                                        Grid.Row="2"
+                                                        Background="#B2000000"
+                                                        IsRunning="{Binding IsBusy, Mode=TwoWay}" 
+                                                        Visibility="{Binding IsBusy, Converter={StaticResource boolToVisibleConv}}"
+                                                        Content="Loading Job Trends..." 
+                                                        AnimationStyle="AnimationStyle7" >
+                    	<telerikPrimitives:RadBusyIndicator.Foreground>
+                    		<SolidColorBrush Color="#FFFDE43F"/>
+                    	</telerikPrimitives:RadBusyIndicator.Foreground>
+                    </telerikPrimitives:RadBusyIndicator>
+                    <TextBlock Text="Data Provided by the Department Of Labor" 
+                               Grid.Row="3"
+                               FontSize="16" 
+                               FontWeight="Bold" 
+                               HorizontalAlignment="Left"
+                               Margin="0,20,0,0"
+                               Style="{StaticResource PhoneTextListBoxNormalBoldStyle}" />
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Margin="0,-15,0,0">
+                <Grid VerticalAlignment="Top" Margin="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btnJobStats" 
+                            Template="{StaticResource JobStatsButtonTemplate}" 
+                            Click="btnJobStats_Click" />
+                    <Button x:Name="btnSavedSearches" 
+                            Grid.Row="1" 
+                            Margin="0,20,0,0" 
+                            Template="{StaticResource SavedSearchesButtonTemplate}" 
+                            Click="btnSavedSearches_Click" />
+                    <Button x:Name="btnSavedJobs" 
+                            Grid.Row="2" 
+                            Margin="0,20,0,0" 
+                            Template="{StaticResource SavedJobsButtonTemplate}" 
+                            Click="btnSavedJobs_Click" />
+                    <Rectangle Height="3" 
+                               Grid.Row="3" 
+                               Margin="0,33" >
+                    	<Rectangle.Fill>
+                    		<SolidColorBrush Color="{StaticResource PhoneYellowColor}"/>
+                    	</Rectangle.Fill>
+                    </Rectangle>
+                    <Button x:Name="btnSettings" 
+                            Grid.Row="4" 
+                            Margin="0,20,0,0" 
+                            Template="{StaticResource SettingsButtonTemplate}" 
+                            Click="btnSettings_Click" />
+                    <Button x:Name="btnAbout" 
+                            Grid.Row="5" 
+                            Margin="0,20,0,0" 
+                            Template="{StaticResource AboutButtonTemplate}" 
+                            Click="btnAbout_Click" />
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>
+  

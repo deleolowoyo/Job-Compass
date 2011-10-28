@@ -1,0 +1,55 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
+  <UsingTask TaskName="NLocalize.BuildTask.Localize" AssemblyFile="NLocalize.dll" />
+  
+  <Target Name="AfterCompileWinFx">
+    <Message Text="Localizing project $(MSBuildProjectFile) with NLocalize" />
+    <Message Condition="'$(BuildingProject)' == 'false'" Text="Skipping localization because BuildingProject is false" />
+    <Localize
+        Condition="'$(BuildingProject)' == 'true'"
+        AttachDebugger="False"
+        ProjectId="$(ProjectGuid)"
+        InputFiles="@(Page);@(ApplicationDefinition);"
+        ProjectDirectory="$(MSBuildProjectDirectory)"
+        ProjectFileName="$(MSBuildProjectFullPath)"
+        IntermediateOutputPath="$(IntermediateOutputPath)"
+        SourceCulture="$(SourceCulture)"
+        TargetCultures="$(TargetCultures)"
+        TranslationFileFormat="$(TranslationFileFormat)"
+        OutputPath="$(MSBuildProjectDirectory)\$(IntermediateOutputPath)"
+        AssemblyResolvePaths="$(MSBuildProjectDirectory)\$(IntermediateOutputPath);$(MSBuildProjectDirectory)\obj\x64\debug;$(MSBuildProjectDirectory)\obj\x86\debug;
+
+$(MSBuildProjectDirectory)\bin\x64\debug;$(MSBuildProjectDirectory)\bin\x86\debug;$(MSBuildProjectDirectory)\bin\debug;@(ReferencePath);">
+      <Output ItemName="GeneratedLocalizedBamlFiles" TaskParameter="GeneratedLocalizedBamlFiles" />
+    </Localize>
+
+    <Message Condition="'$(BuildingProject)' == 'true'" Text="NLocalize generated baml files: @(GeneratedLocalizedBamlFiles) Culture: %(GeneratedLocalizedBamlFiles.Culture)" />
+
+
+    <Message Condition="'$(BuildingProject)' == 'true'" Text="Cultures: %(GeneratedLocalizedBamlFiles.Culture)" />
+    
+    
+    <ItemGroup>
+      <NLocalizeSatelliteEmbeddedFilesTemp Include="@(SatelliteEmbeddedFiles)" Condition = "%(Extension) != '.baml'">
+      </NLocalizeSatelliteEmbeddedFilesTemp>
+      <NLocalizeSatelliteEmbeddedFiles Include="@(GeneratedLocalizedBamlFiles);@(NLocalizeSatelliteEmbeddedFilesTemp)" />
+    </ItemGroup>
+
+    <ResourcesGenerator
+        ResourceFiles="@(NLocalizeSatelliteEmbeddedFiles)"
+        OutputPath="$(IntermediateOutputPath)\%(NLocalizeSatelliteEmbeddedFiles.Culture)"
+        OutputResourcesFile="$(IntermediateOutputPath)$(AssemblyName).g.%(NLocalizeSatelliteEmbeddedFiles.Culture).resources"
+        Condition = "%(NLocalizeSatelliteEmbeddedFiles.Culture) != '' And '$(BuildingProject)' == 'true'" />
+
+    <ItemGroup>
+      <EmbeddedResource 
+        Include="$(IntermediateOutputPath)$(AssemblyName).g.%(GeneratedLocalizedBamlFiles.Culture).resources" 
+        Condition="'@(NLocalizeSatelliteEmbeddedFiles)' != '' And '$(BuildingProject)' == 'true'">
+        <Culture>%(GeneratedLocalizedBamlFiles.Culture)</Culture>
+        <GenerateResource>false</GenerateResource>
+        <Type>Resx</Type>
+        <WithCulture>true</WithCulture>
+        <OutputResource>$(IntermediateOutputPath)$(AssemblyName).g.%(GeneratedLocalizedBamlFiles.Culture).resources</OutputResource>
+      </EmbeddedResource>
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,6 @@
+<MarketplaceDetails>
+  <SmallAppTile>SmallAppIcon.png</SmallAppTile>
+  <LargeAppTile>LargeAppIcon.png</LargeAppTile>
+  <PCAppTile>PCAppIcon.png</PCAppTile>
+  <ScreenShots>AdvancedSearch.png;SearchResultsList.png;SearchResultsMap.png;JobTrends.png;JobOverview.png;MainMenu.png;JobDemographics.png;SplashPage.png;</ScreenShots>
+</MarketplaceDetails>

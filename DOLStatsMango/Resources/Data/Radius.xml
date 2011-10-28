@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2011-08-16T10:56:38">
+<Radius>
+<Code>5</Code>
+<Description>5 miles</Description>
+</Radius>
+<Radius>
+<Code>10</Code>
+<Description>10 miles</Description>
+</Radius>
+<Radius>
+<Code>20</Code>
+<Description>20 miles</Description>
+</Radius>
+<Radius>
+<Code>30</Code>
+<Description>30 miles</Description>
+</Radius>
+<Radius>
+<Code>50</Code>
+<Description>50 miles</Description>
+</Radius>
+<Radius>
+<Code>100</Code>
+<Description>100 miles</Description>
+</Radius>
+<Radius>
+<Code>150</Code>
+<Description>150 miles</Description>
+</Radius>
+</dataroot>

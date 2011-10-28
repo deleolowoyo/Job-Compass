@@ -1,0 +1,162 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="DOLStatsMango.Views.AboutView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:phoneToolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False"
+    phoneToolkit:TiltEffect.IsTiltEnabled="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource JobCompassPageBackgroundBrush}">
+        <!--Pivot Control-->
+        <controls:Pivot Title="JOB COMPASS" HeaderTemplate="{StaticResource PivotItemHeaderTemplate}"
+						TitleTemplate="{StaticResource PivotTitleTemplate}">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="about" Margin="12,10,12,0">
+                <ScrollViewer>
+                    <Grid Margin="12,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <StackPanel Margin="0">
+                            <TextBlock Text="JOB COMPASS" 
+                                       Style="{StaticResource TextBlockHeaderStyle}" 
+                                       Margin="0,0,0,0" />
+                            <TextBlock Text="by Dcube Apps" 
+	                                   Style="{StaticResource PhoneTextListBoxNormalStyle}" 
+	                                   TextWrapping="Wrap" 
+	                                   Margin="0" 
+                                       VerticalAlignment="Top" />
+                        </StackPanel>
+                        <StackPanel Margin="0,20,0,0" Grid.Row="1" Orientation="Horizontal">
+                            <TextBlock x:Name="txtVersion" Style="{StaticResource PhoneTextListBoxNormalStyle}" Margin="0,0,0,0" />
+                        </StackPanel>
+                        <TextBlock Text="This application uses several data sources from the Department Of Labor (DOL) and other organizations but is not endorsed or certified by these entities."
+                                       TextWrapping="Wrap"
+                                        Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                       Grid.Row="2" 
+                                       Margin="0,0,0,0" />
+                    </Grid>
+                </ScrollViewer>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="credit" Margin="12,10,12,0">
+                <ScrollViewer>
+                    <Grid Margin="12,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <StackPanel Margin="0">
+                            <TextBlock Text="Department of Labor (DOL)" Style="{StaticResource TextBlockHeaderStyle}" Margin="0,0,0,0" />
+                            <TextBlock x:Name="txtDOLInfo" 
+                                   Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                   TextWrapping="Wrap" 
+                                   Margin="0" VerticalAlignment="Top" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Margin="0,30,0,0">
+                            <TextBlock Text="Yahoo Local Search" Style="{StaticResource TextBlockHeaderStyle}" Margin="0,0,0,0" />
+                            <TextBlock x:Name="txtYahoo" 
+                                   Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                   TextWrapping="Wrap" 
+                                   Margin="0" VerticalAlignment="Top" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="2" Margin="0,30,0,0">
+                            <TextBlock Text="Zillow" Style="{StaticResource TextBlockHeaderStyle}" Margin="0,0,0,0" />
+                            <TextBlock x:Name="txtZillow" 
+                                   Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                   TextWrapping="Wrap" 
+                                   Margin="0" VerticalAlignment="Top" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="3" Margin="0,30,0,0">
+                            <TextBlock Text="Rad Controls for Windows Phone" Style="{StaticResource TextBlockHeaderStyle}" Margin="0,0,0,0" />
+                            <TextBlock Text="Copyright © 2002-2011 Telerik. All rights reserved." 
+                                   Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                   TextWrapping="Wrap" 
+                                   Margin="0" VerticalAlignment="Top" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="4" Margin="0,30,0,0">
+                            <TextBlock Text="RestSharp" Style="{StaticResource TextBlockHeaderStyle}" Margin="0,0,0,0" />
+                            <TextBlock x:Name="txtRestSharp" 
+                                   Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                   TextWrapping="Wrap" 
+                                   Margin="0" VerticalAlignment="Top" />
+                        </StackPanel>
+                        <StackPanel Grid.Row="5" Margin="0,30,0,0">
+                            <TextBlock Text="Silverlight for Windows Phone Toolkit" Style="{StaticResource TextBlockHeaderStyle}" Margin="0,0,0,0" />
+                            <TextBlock x:Name="txtToolkit" 
+                                   Style="{StaticResource PhoneTextListBoxSubtleStyle}" 
+                                   TextWrapping="Wrap" 
+                                   Margin="0" VerticalAlignment="Top" />
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </controls:PivotItem>
+
+            <controls:PivotItem Header="support" Margin="12,10,12,0">
+                <ScrollViewer>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="btnSendEmail" 
+							Content="Send feedback" 
+                                Margin="0,20,0,0"  
+							Click="btnSendEmail_Click" Template="{StaticResource AboutSendEmailButtonTemplate}" />
+                        <Button x:Name="btnRate" 
+							Content="Rate &amp; Review" 
+							Grid.Row="1" 
+                                Margin="0,20,0,0"  
+							Click="btnRate_Click" Template="{StaticResource AboutRateAppButtonTemplate}" />
+                        <Button x:Name="btnTwitter" 
+							Content="Twitter - @DCubeApps" 
+							Grid.Row="2" 
+                                Margin="0,20,0,0" 
+							Click="btnTwitter_Click" Template="{StaticResource AboutTwitterButtonTemplate}" />
+                        <Button x:Name="btnWebsite" 
+							Content="Twitter - @DCubeApps" 
+							Grid.Row="3" 
+                                Margin="0,20,0,0" 
+							Click="btnWebsite_Click" Template="{StaticResource AboutWebsiteButtonTemplate}" />
+                    </Grid>
+                </ScrollViewer>
+            </controls:PivotItem>
+
+        </controls:Pivot>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>
